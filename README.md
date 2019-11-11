@@ -18,6 +18,11 @@ To make colors enumerable, I've created arrays of colors. It's not close to the 
     let myRed = MaterialColor.Red.RedDarken_2
     myView.backgroundColor = myRed
     
+## Contains additional methods
+
+  - toRGBAString (from UIColor) -> String
+  - toRGBString (from UIColor) -> String
+  - textColor(takes UIColor) -> UIColor, returns white or black UIColor based on "darkness" of a UIColor (i.e. background)
 
 ## Example of the project application running in a simulator.
 
