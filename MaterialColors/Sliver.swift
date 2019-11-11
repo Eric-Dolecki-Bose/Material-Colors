@@ -48,8 +48,8 @@ class Sliver: UIView
     }
 }
 
-extension UIColor {
-    
+extension UIColor
+{    
     func toRGBAString(uppercased: Bool = true) -> String {
         var r: CGFloat = 0
         var g: CGFloat = 0
