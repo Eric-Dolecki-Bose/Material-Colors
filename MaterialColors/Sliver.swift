@@ -13,14 +13,16 @@ class Sliver: UIView
     // Custom initializer.
     var label: UILabel!
     
-    init(frame: CGRect, background: UIColor) {
+    init(frame: CGRect, background: UIColor, useLabel: Bool = false) {
         super.init(frame: frame)
-        label = UILabel(frame: CGRect(x: 0, y: 0, width: self.frame.width, height: self.frame.height))
-        label.textAlignment = .center
-        label.font = UIFont.systemFont(ofSize: 7.0)
-        label.text = background.toRGBAString(uppercased: true)
-        label.textColor = textColor(bgColor: background)
-        self.addSubview(label)
+        if useLabel {
+            label = UILabel(frame: CGRect(x: 0, y: 0, width: self.frame.width, height: self.frame.height))
+            label.textAlignment = .center
+            label.font = UIFont.systemFont(ofSize: 7.0)
+            label.text = background.toRGBAString(uppercased: true)
+            label.textColor = textColor(bgColor: background)
+            self.addSubview(label)
+        }
         self.backgroundColor = background
     }
     
