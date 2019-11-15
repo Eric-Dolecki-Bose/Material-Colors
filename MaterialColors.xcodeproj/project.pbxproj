@@ -63,14 +63,22 @@
 				5F4AF141236B10DB00A7C71B /* AppDelegate.swift */,
 				5F4AF143236B10DB00A7C71B /* SceneDelegate.swift */,
 				5F4AF145236B10DB00A7C71B /* ViewController.swift */,
-				5F4AF155236B116200A7C71B /* UIColorExtension.swift */,
-				5F8457072375E3E1007976F4 /* Sliver.swift */,
+				5FAE9B0E237F1DA20075761B /* For Swift Package */,
 				5F4AF147236B10DB00A7C71B /* Main.storyboard */,
 				5F4AF14A236B10DD00A7C71B /* Assets.xcassets */,
 				5F4AF14C236B10DD00A7C71B /* LaunchScreen.storyboard */,
 				5F4AF14F236B10DD00A7C71B /* Info.plist */,
 			);
 			path = MaterialColors;
+			sourceTree = "<group>";
+		};
+		5FAE9B0E237F1DA20075761B /* For Swift Package */ = {
+			isa = PBXGroup;
+			children = (
+				5F4AF155236B116200A7C71B /* UIColorExtension.swift */,
+				5F8457072375E3E1007976F4 /* Sliver.swift */,
+			);
+			path = "For Swift Package";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
